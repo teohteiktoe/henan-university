@@ -29,6 +29,10 @@ def palm():
 def mj():
     return(render_template("mj.html"))
 
+@app.route("/henan",methods=["GET","POST"])
+def mj():
+    return(render_template("henan.html"))
+
 @app.route("/result_palm",methods=["GET","POST"])
 def result_palm():
     q = request.form.get("q")
