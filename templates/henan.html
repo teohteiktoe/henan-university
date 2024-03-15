@@ -1,0 +1,36 @@
+<style>
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+    @media (min-width: 600px) {
+        .container {
+            width: 80%;
+        }
+    }
+    @media (min-width: 768px) {
+        .container {
+            width: 60%;
+        }
+    }
+    @media (min-width: 1024px) {
+        .container {
+            width: 50%;
+        }
+    }
+</style>
+
+<div class="container">
+    <h1>Welcome to Henan University</h1>
+    <img src="https://govt.chinadaily.com.cn/images/202306/30/649e7213498ea27454d56253.jpeg" 
+         width="300" height="200">
+    <form action="/henan" method="post">
+        <p><input type="submit" value="About Henan University" style="width:100px;height:50px"></p>
+    </form>
+    <form action="/palm" method="post">
+        <p><input type="submit" value="Generate Text" style="width:100px;height:50px"></p>
+    </form>
+    <form action="/mj" method="post">
+        <p><input type="submit" value="Generate Image" style="width:100px;height:50px"></p>
+    </form>
+</div>
